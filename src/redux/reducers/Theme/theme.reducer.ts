@@ -1,5 +1,5 @@
 
-import { ThemeAction, ThemeActionTypes, ThemeTypes } from '../../types/store/Theme.types';
+import { ThemeAction, ThemeActionTypes, ThemeTypes } from '../../../types/store/Theme.types';
 
 const initialState: ThemeTypes = {
     theme: 'light'

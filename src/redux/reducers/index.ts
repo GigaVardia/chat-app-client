@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-import { ThemeReducer } from './theme.reducer';
+import { ThemeReducer } from './Theme/theme.reducer';
 
 export const rootReducer = combineReducers({
     theme: ThemeReducer
